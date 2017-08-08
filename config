@@ -1,0 +1,17 @@
+export FLASK_APP=syndbb
+export FLASK_DEBUG=true
+
+export SYNDBB_HOST="0.0.0.0"
+export SYNDBB_DB="sqlite:///syndbb.db"
+export SYNDBB_SECRET="INVALID_SECRET"
+export SYNDBB_HASH="INVALID_HASH"
+export SYNDBB_IRC_API="INVALID_API"
+
+export IRC_NETWORK_NAME="D2K5"
+export IRC_NETWORK_ADDRESS="10.0.0.103"
+export IRC_NETWORK_PORT="6767"
+
+export ZNC_ADDRESS="0.0.0.0"
+export ZNC_PORT="6697"
+export ZNC_USER="admin"
+export ZNC_PASSWORD="password"
